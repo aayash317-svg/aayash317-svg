@@ -1,46 +1,58 @@
 # Hi, I'm Ayash 👋
 
 **B.Tech Artificial Intelligence & Data Science Student**  
-Building practical AI/ML security systems, backend workflows, and full-stack applications.  
-*Actively seeking technical project coordination and software / AI engineering internships.*
+Building production-grade Retrieval-Augmented Generation (RAG) systems, real-time AI security engines, and full-stack applications.  
+*Actively seeking technical project coordination, AI/ML engineering, and software development internships.*
 
 ---
 
 ## 👨‍💻 About Me
 
 - 🎓 **Education**: B.Tech in Artificial Intelligence & Data Science (India 🇮🇳)
-- 🛠️ **What I Build**: Real-time AI detection pipelines, robust REST APIs, role-based workflows, and automated reporting systems.
-- 👥 **Project Coordination & Leadership**: Experienced in leading academic project teams—defining requirements, managing git workflows, dividing tasks, and delivering end-to-end solutions.
-- 🎯 **Internship Focus**: Technical Project Management / Coordination, AI/ML Engineering, and Backend / Full-Stack Software Development.
+- 🛠️ **What I Build**: Local-first RAG systems with verifiable citations, real-time audio deepfake classifiers, robust asynchronous REST APIs, and multi-role enterprise workflows.
+- 👥 **Project Coordination & Leadership**: Experienced in leading technical project teams—defining architecture, managing Git workflows, enforcing testing standards, and delivering end-to-end solutions.
+- 🎯 **Focus Areas**: Retrieval-Augmented Generation (RAG), AI/ML Engineering, Backend & Full-Stack Systems, and Technical Project Management.
 
 ---
 
 ## 🚀 What I Build & Coordinate
 
-- **AI & Audio ML Systems** — Acoustic feature extraction, deepfake audio detection, neural waveform classification, and streaming analysis.
-- **Backend & ERP Platforms** — Asynchronous REST APIs with FastAPI & Flask, role-based access control (RBAC), and automated PDF/Excel generation.
-- **Multi-Role Web Systems** — Practical workflow automation with real database persistence (MongoDB, MySQL).
-- **Technical Team Leadership** — Sprint planning, repository organization, documentation standards, and cross-functional task tracking.
+- **Retrieval-Augmented Generation (RAG) & Document AI** — Hybrid dense-sparse retrieval (Qdrant + BM25), Reciprocal Rank Fusion (RRF), page-attributed citation grounding, strict output constraints, and hallucination guardrails.
+- **AI & Audio ML Systems** — Acoustic feature extraction, deepfake audio detection, neural waveform classification (SincNet), and low-latency streaming analysis.
+- **Backend & Full-Stack Systems** — Asynchronous REST APIs with FastAPI & Flask, role-based access control (RBAC), multi-tenant isolation, SQLite / MongoDB / MySQL persistence, and modern React (TypeScript) interfaces.
+- **Technical Team Leadership** — Sprint planning, repository organization, test-driven development (TDD), and cross-functional task tracking.
 
 ---
 
 ## 🛠️ Verified Tech Stack
 
 ### Languages
-`Python` · `SQL` · `JavaScript` · `Java` · `HTML5 / CSS3`
+`Python` · `TypeScript` · `SQL` · `JavaScript` · `Java` · `HTML5 / CSS3`
 
-### AI & Machine Learning
-`PyTorch` · `torchaudio` · `scikit-learn` · `librosa` · `SciPy` · `NumPy` · `Acoustic Feature Extraction`
+### AI, Machine Learning & RAG
+`sentence-transformers` · `Qdrant (Vector DB)` · `BM25Okapi` · `Reciprocal Rank Fusion (RRF)` · `Ollama (Local LLMs)` · `PyTorch` · `torchaudio` · `scikit-learn` · `librosa` · `SciPy` · `NumPy`
 
 ### Backend & Databases
-`FastAPI` · `Flask` · `MongoDB (Motor)` · `MySQL` · `REST APIs` · `WebSockets` · `JWT Authentication`
+`FastAPI` · `Flask` · `SQLAlchemy` · `SQLite` · `MongoDB (Motor)` · `MySQL` · `REST APIs` · `WebSockets` · `JWT Authentication` · `Bcrypt`
 
-### Tools & DevOps
-`Git` · `GitHub` · `Docker` · `Docker Compose` · `Render` · `Linux / Bash` · `pytest`
+### Frontend & DevOps
+`React 18` · `Vite` · `Tailwind CSS` · `Git` · `GitHub` · `Docker` · `Docker Compose` · `pytest` · `Render` · `Linux / Bash`
 
 ---
 
 ## ⭐ Featured Projects
+
+### 🧠 [DocuMind AI — Local Grounded Document Intelligence & RAG Assistant](https://github.com/aayash317-svg/DocuMind-AI)
+> A 100% private, local-first RAG assistant featuring hybrid dense-sparse retrieval, reciprocal rank fusion, context-grounded citations, and local LLM inference.
+
+- **Hybrid Dense-Sparse Retrieval**: Combines semantic embeddings (`all-MiniLM-L6-v2` in Qdrant) with sparse keyword matching (`BM25Okapi`), fused via Reciprocal Rank Fusion ($k=60$) with query-aware target page boosting.
+- **Verifiable Citation Grounding**: Every factual assertion links to its exact source file and page (`[Source: <doc>, Page: <p>]`) with 180-character centered matching snippets; faithfully abstains when facts are unstated.
+- **Output Constraint Enforcement**: Enforces exact bullet counts, ordered pipeline stages, single-sentence constraints, and structured numbered Q&A formatting.
+- **Multi-Tenant Security & History**: JWT authentication with bcrypt password hashing, SQLite foreign-key cascade isolation across users, and multi-session chat replay.
+- **Production-Ready & Fully Tested**: Automated regression suite with 41 passing tests covering auth, extraction edge cases (PDF, DOCX tables, TXT), retrieval accuracy, and response formatting.
+- **Tech**: `Python` · `FastAPI` · `React (TypeScript)` · `Qdrant` · `BM25` · `Ollama (qwen2.5)` · `SQLite` · `pytest` · `Vite`
+
+---
 
 ### 🛡️ [Voice Shield AI — Real-Time Voice Cloning Detection](https://github.com/aayash317-svg/Ai_voice-_cloning)
 > An AI-powered security engine that detects synthetic speech, cloned voices, and deepfakes during live audio calls and uploads.
@@ -76,8 +88,8 @@ Building practical AI/ML security systems, backend workflows, and full-stack app
 
 ## 📚 Current Learning & Growth Direction
 
-- Deepening PyTorch techniques for real-time audio and speech signal processing
-- On-device model optimization and quantization (ONNX / TFLite)
+- Advanced RAG architectures (agentic workflows, query rewriting, re-ranking cross-encoders)
+- Real-time multimodal streaming and on-device model optimization (ONNX / TensorRT)
 - Cloud architecture patterns, CI/CD pipelines, and scalable microservices
 - Agile project management methodologies and technical sprint coordination
 
